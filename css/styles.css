@@ -413,6 +413,9 @@ footer {
     text-indent: 1em;
   }
 
+  .contant-main h1 {
+    font-size: 0.75em;
+  }
   .contactform input,
   textarea {
     width: 100%;
