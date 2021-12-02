@@ -415,6 +415,7 @@ footer {
 
   .contant-main h1 {
     font-size: 0.75em;
+    height: 20px;
   }
   .contactform input,
   textarea {
