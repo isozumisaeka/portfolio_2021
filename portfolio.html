@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>saekaIsozumi</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<!-- jQuery読み込み -->
+	<script src="jquery-3.6.0.min.js"></script>
+	<!-- lightboxの読み込み -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"
+		type="text/javascript"></script>
+	<!-- fontawesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+	<!-- fontawesomeの読み込み -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<!-- googlefonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&family=Rajdhani&display=swap"
+		rel="stylesheet">
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+		<div class="logo">
+			<a href="/">
+				<h1>My Works</h1>
+			</a>
+		</div>
+		<!-- ハンバーガーメニュー -->
+		<div id="hamburger">
+			<div class="icon">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+		<!-- スマホサイズ -->
+		<nav class="sm">
+			<ul>
+				<li><a href="/">TOP</a></li>
+				<li><a href="#about">ABOUT</a></li>
+				<li><a href="#works">WORKS</a></li>
+				<li><a href="/portfolio.html">PORTFOLIO</a></li>
+				<li><a href="#history">HISTORY</a></li>
+				<li><a href="#skills">SKILLS</a></li>
+				<li><a href="#language">CERTIFICATE</a></li>
+				<!-- <li><a href="#contact">CONTACT</a></li> -->
+			</ul>
+		</nav>
+		<!-- ヘッダーリスト -->
+		<nav class="pc">
+			<ul>
+				<li><a href="/" id="top1" onmouseover="topon();" onmouseout="topout()">TOP</a></li>
+				<li><a href="#about" id="about1" onmouseover="abouton();" onmouseout="aboutout()">ABOUT</a></li>
+				<li><a href="#works" id="works1" onmouseover="workon();" onmouseout="workout()">WORKS</a></li>
+				<li><a href="/portfolio.html" id="port1" onmouseover="porton();" onmouseout="portout()">PORTFOLIO</a></li>
+				<li><a href="#history" id="history1" onmouseover="historyon();" onmouseout="historyout()">HISTORY</a>
+				</li>
+				<li><a href="#skills" id="skills1" onmouseover="skillson();" onmouseout="skillsout()">SKILLS</a></li>
+				<li style="width: 120px"><a href="#language" id="langs1" onmouseover="langson();" onmouseout="langsout()">CERTIFICATE</a></li>
+				<!-- <li><a href="#contact" id="contact1" onmouseover="contacton();" onmouseout="contactout()">CONTACT</a> -->
+				</li>
+			</ul>
+		</nav>
+	</header>
+    <!-- header ｺｺﾏﾃﾞ -->
+    <main class="mokuji">
+        <a href="#project1"><p>project1_html(レスポンシブ)</p></a>
+        <a href="#project2"><p>project2_html</p></a>
+        <a href="#project3"><p>project3_php</p></a>
+        <a href="#project4"><p>project4_java</p></a>
+        <a href="#project5"><p>project5_laravel</p></a>
+        <a href="#project6"><p>project6_others</p></a>
+        <!-- <a href="#project7"><p>project1_html</p></a> -->
+    </main>
+
+
+    <!-- project1 -->
+    <main class="contents" id="project1">
+        <div class="contant-main">
+            <div>
+                <h1>project1_html(responsive)</h1>
+                <hr>
+            </div>
+        <div class="content-about">
+            <dl>
+                <dt>コンセプト</dt>
+                <dd>職業訓練校課題</dd>
+                <dt>使用言語</dt>
+                <dd>HTML CSS Javascript jQuery</dd>
+                <dt>開発環境</dt>
+                <dd>-</dd>
+                <dt>開発期間</dt>
+                <dd>2日(12時間)</dd>
+                <dt>開発人数</dt>
+                <dd>1名</dd>
+            </dl>
+        </div>
+    </div>
+        <div class="content-top">
+            <img src="images/project1/port1.png" alt="">
+        </div>
+    </div>
+        <div class="content-image"> 
+            <ul>
+                <p><a href="images/project1/port1.png" data-lightbox="mywork"><img src="images/project1/port1.png"></a></p>
+                <p><a href="images/project1/port3.png" data-lightbox="mywork"><img src="images/project1/port3.png"></a></p>
+                <p><a href="images/project1/port4.png" data-lightbox="mywork"><img src="images/project1/port4.png"></a></p>
+                <p><a href="images/project1/port2.png" data-lightbox="mywork"><img src="images/project1/port2.png"></a></p>
+                
+            </ul>
+        </div>
+    </main>
+
+     <!-- project2 -->
+     <main class="contents" id="project2">
+        <div class="contant-main">
+            <div>
+                <h1>project2_html</h1>
+                <hr>
+            </div>
+        <div class="content-about">
+            <dl>
+                <dt>コンセプト</dt>
+                <dd>職業訓練校課題</dd>
+                <dt>使用言語</dt>
+                <dd>HTML CSS Javascript jQuery</dd>
+                <dt>開発環境</dt>
+                <dd>-</dd>
+                <dt>開発期間</dt>
+                <dd>3日(18時間)</dd>
+                <dt>開発人数</dt>
+                <dd>1名</dd>
+            </dl>
+        </div>
+    </div>
+        <div class="content-top">
+            <img src="images/project2/bakery2.png" alt="">
+            <!-- <video src="images/project2/bakery1.mov" autoplay muted loop></video> -->
+        </div>
+    </div>
+        <div class="content-image"> 
+            <ul>
+                <p><a href="images/project2/bakery2.png" data-lightbox="mywork"><img src="images/project2/bakery2.png"></a></p>
+                <p><a href="images/project2/bakery3.png" data-lightbox="mywork"><img src="images/project2/bakery3.png"></a></p>
+                <p><a href="images/project2/bakery5.png" data-lightbox="mywork"><img src="images/project2/bakery5.png"></a></p>
+                <p><a href="images/project2/bakery6.png" data-lightbox="mywork"><img src="images/project2/bakery6.png"></a></p>
+                <p><a href="images/project2/bakery7.png" data-lightbox="mywork"><img src="images/project2/bakery7.png"></a></p>
+                <p><a href="images/project2/bakery9.png" data-lightbox="mywork"><img src="images/project2/bakery9.png"></a></p>
+            </ul>
+        </div>
+    </main>
+    <!-- project3 -->
+    <main class="contents" id="project3">
+        <div class="contant-main">
+            <div>
+                <h1>project3_php</h1>
+                <hr>
+            </div>
+        <div class="content-about">
+            <dl>
+                <dt>使用言語</dt>
+                <dd>PHP HTML CSS Javascript jQuery</dd>
+                <dt>開発環境</dt>
+                <dd>XAMPP Tomcat8 phpMyAdmin</dd>
+                <dt>開発期間</dt>
+                <dd>10日(60時間)</dd>
+                <dt>開発人数</dt>
+                <dd>4名</dd>
+            </dl>
+        </div>
+    </div>
+        <div class="content-top">
+            <!-- <video src="images/project3/hinna.mov" autoplay muted loop></video> -->
+            <img src="images/project3/hinna1.png" alt="">
+        </div>
+        <div class="content-image"> 
+            <ul>
+                <p><a href="images/project3/hinna1.png" data-lightbox="mywork"><img src="images/project3/hinna1.png"></a></p>
+                <p><a href="images/project3/hinna2.png" data-lightbox="mywork"><img src="images/project3/hinna2.png"></a></p>
+                <p><a href="images/project3/hinna3.png" data-lightbox="mywork"><img src="images/project3/hinna3.png"></a></p>
+                <p><a href="images/project3/hinna4.png" data-lightbox="mywork"><img src="images/project3/hinna4.png"></a></p>
+                <p><a href="images/project3/hinna5.png" data-lightbox="mywork"><img src="images/project3/hinna5.png"></a></p>
+                <p><a href="images/project3/hinna6.png" data-lightbox="mywork"><img src="images/project3/hinna6.png"></a></p>
+                <p><a href="images/project3/hinna8.png" data-lightbox="mywork"><img src="images/project3/hinna8.png"></a></p>
+                <p><a href="images/project3/hinna11.png" data-lightbox="mywork"><img src="images/project3/hinna11.png"></a></p>
+                <p><a href="images/project3/hinna12.png" data-lightbox="mywork"><img src="images/project3/hinna12.png"></a></p>
+                <p><a href="images/project3/hinna13.png" data-lightbox="mywork"><img src="images/project3/hinna13.png"></a></p>
+            </ul>
+        </div>
+    </main>
+
+    <!-- project4 -->
+    <main class="contents" id="project4">
+        <div class="contant-main">
+            <div>
+                <h1>project4_java</h1>
+                <hr>
+            </div>
+        <div class="content-about">
+            <dl>
+                <dt>コンセプト</dt>
+                <dd>職業訓練校課題(本屋の販売サイト作成)</dd>
+                <dt>使用言語</dt>
+                <dd>Java HTML CSS Javascript jQuery</dd>
+                <dt>開発環境</dt>
+                <dd>eclipse　XAMPP Tomcat8 phpMyAdmin</dd>
+                <dt>開発期間</dt>
+                <dd>14日(84時間)</dd>
+                <dt>開発人数</dt>
+                <dd>7名</dd>
+            </dl>
+        </div>
+    </div>
+        <div class="content-top">
+            <img src="images/project4/java1.JPG" alt="">
+        </div>
+    </div>
+        <div class="content-image"> 
+            <ul>
+                <p><a href="images/project4/java1.JPG" data-lightbox="mywork"><img src="images/project4/java1.JPG"></a></p>
+                <p><a href="images/project4/java2.JPG" data-lightbox="mywork"><img src="images/project4/java2.JPG"></a></p>
+                <p><a href="images/project4/java3.JPG" data-lightbox="mywork"><img src="images/project4/java3.JPG"></a></p>
+                <p><a href="images/project4/java4.JPG" data-lightbox="mywork"><img src="images/project4/java4.JPG"></a></p>
+                <p><a href="images/project4/java5.JPG" data-lightbox="mywork"><img src="images/project4/java5.JPG"></a></p>
+                <p><a href="images/project4/java6.JPG" data-lightbox="mywork"><img src="images/project4/java6.JPG"></a></p>
+                <p><a href="images/project4/java11.JPG" data-lightbox="mywork"><img src="images/project4/java11.JPG"></a></p>
+                <p><a href="images/project4/java12.JPG" data-lightbox="mywork"><img src="images/project4/java12.JPG"></a></p>
+                <p><a href="images/project4/java13.JPG" data-lightbox="mywork"><img src="images/project4/java13.JPG"></a></p>
+                <p><a href="images/project4/java14.JPG" data-lightbox="mywork"><img src="images/project4/java14.JPG"></a></p>
+            </ul>
+        </div>
+    </main>
+
+    <!-- project5 -->
+    <main class="contents" id="project5">
+        <div class="contant-main">
+            <div>
+                <h1>project5_laravel</h1>
+                <hr>
+            </div>
+        <div class="content-about">
+            <dl>
+                <dt>コンセプト</dt>
+                <dd>職業訓練校インターン先の課題(ToDoアプリ作成)</dd>
+                <dt>使用言語</dt>
+                <dd>PHP Laravel HTML CSS Javascript jQuery　Bootstrap</dd>
+                <dt>開発環境</dt>
+                <dd>vagrant　VirtualBox Git bash</dd>
+                <dt>開発期間</dt>
+                <dd>19日(114時間)</dd>
+                <dt>開発人数</dt>
+                <dd>1名</dd>
+            </dl>
+        </div>
+    </div>
+        <div class="content-top video">
+            <img src="images/project5/todo1.png" alt="">
+            <!-- <video src="images/project5/todo.mp4#t=12" autoplay muted loop></video> -->
+        </div>
+    </div>
+        <div class="content-image"> 
+            <ul>
+                <p><a href="images/project5/topimage.png" data-lightbox="mywork"><img src="images/project5/topimage.png"></a></p>
+                <p><a href="images/project5/addbook.png" data-lightbox="mywork"><img src="images/project5/addbook.png"></a></p>
+                <p><a href="images/project5/addtask.png" data-lightbox="mywork"><img src="images/project5/addtask.png"></a></p>
+                <p><a href="images/project5/task.png" data-lightbox="mywork"><img src="images/project5/task.png"></a></p>
+                <p><a href="images/project5/viewtasks.png" data-lightbox="mywork"><img src="images/project5/viewtasks.png"></a></p>
+                <!-- <p><a href="images/project5/achieve.png" data-lightbox="mywork"><img src="images/project5/achieve.png"></a></p> -->
+                <p><a href="images/project5/check.png" data-lightbox="mywork"><img src="images/project5/check.png"></a></p>
+
+                <p><a href="images/project5/todoapp1.png" data-lightbox="mywork"><img src="images/project5/todoapp1.png"></a></p>
+                <p><a href="images/project5/todoapp2.png" data-lightbox="mywork"><img src="images/project5/todoapp2.png"></a></p>
+                <p><a href="images/project5/todoapp3.png" data-lightbox="mywork"><img src="images/project5/todoapp3.png"></a></p>
+                <p><a href="images/project5/todoapp4.png" data-lightbox="mywork"><img src="images/project5/todoapp4.png"></a></p>
+                <p><a href="images/project5/todoapp5.png" data-lightbox="mywork"><img src="images/project5/todoapp5.png"></a></p>
+                <p><a href="images/project5/todoapp6.png" data-lightbox="mywork"><img src="images/project5/todoapp6.png"></a></p>
+            </ul>
+        </div>
+    </main>
+
+    <!-- project6 -->
+    <main class="contents" id="project6">
+        <div class="contant-main">
+            <div>
+                <h1>project_others</h1>
+                <hr>
+            </div>
+        <div class="content-about">
+            <dl>
+                <dt>過去の作成物</dt>
+                <dd>プログラミングスクール時代の作品</dd>
+                <dt>使用言語</dt>
+                <dd>HTML CSS Javascript React jQuery　Bootstrap</dd>
+                <dt>開発環境</dt>
+                <dd>-</dd>
+            </dl>
+        </div>
+    </div>
+        <div class="content-top">
+            <video src="images/project6/cafe.mov" autoplay muted loop></video>
+        </div>
+    </div>
+        <div class="content-image"> 
+            <ul>
+                <p><a href="images/project6/cafe1.png" data-lightbox="mywork"><img src="images/project6/cafe1.png"></a></p>
+                <p><a href="images/project6/cafe2.png" data-lightbox="mywork"><img src="images/project6/cafe2.png"></a></p>
+                
+                <p><a href="images/project6/mwiy1.png" data-lightbox="mywork"><img src="images/project6/mwiy1.png"></a></p>
+                <p><a href="images/project6/mwiy2.png" data-lightbox="mywork"><img src="images/project6/mwiy2.png"></a></p>
+                <p><a href="images/project6/mwiy3.png" data-lightbox="mywork"><img src="images/project6/mwiy3.png"></a></p>
+                <p><a href="images/project6/mwiy4.png" data-lightbox="mywork"><img src="images/project6/mwiy4.png"></a></p>
+                <p><a href="images/project6/kita1.png" data-lightbox="mywork"><img src="images/project6/kita1.png"></a></p>
+                <p><a href="images/project6/kita2.png" data-lightbox="mywork"><img src="images/project6/kita2.png"></a></p>
+                <p><a href="images/project6/kita3.png" data-lightbox="mywork"><img src="images/project6/kita3.png"></a></p>
+                <p><a href="images/project6/kita4.png" data-lightbox="mywork"><img src="images/project6/kita4.png"></a></p>
+                <p><a href="images/project6/kita5.png" data-lightbox="mywork"><img src="images/project6/kita5.png"></a></p>
+                
+                
+            </ul>
+        </div>
+    </main>
+
+
+    <footer>&copy; My work 2021</footer>
+	<div id="page_top"><a href="#top"></a></div>
+	<!-- js -->
+	<script src="script.js" type="text/javascript"></script>
+</body>
+</html>
